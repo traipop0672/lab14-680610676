@@ -94,7 +94,7 @@ export default function ModalRegister({ onClose }: { onClose: () => void }) {
 
     const newItem = {
       id: Date.now(),
-      fullName: form.fname + form.lname,
+      fullName: form.fname + " " + form.lname,
       plan: form.plan,
       gender: form.gender,
       items: form.items,
